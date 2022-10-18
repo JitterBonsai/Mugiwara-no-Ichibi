@@ -4,18 +4,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-.Bloco1 {
-    background-color: white;
-    border:1px solid black;
-    padding: 5px 5px 5px 5px;
-}
+
 .Bloco2 {
     background-color: white;
     border: 1px solid black;
 }
-.Container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.bg-red {
+    background: red;
+}
 
+.bg-pergaminho {
+    background: #F5F5F5;
 }
