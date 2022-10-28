@@ -16,3 +16,8 @@ h1, h2, h3, h4, h5, h6 {
 .bg-pergaminho {
     background: #F5F5F5;
 }
+
+#mnu-scroll:hover + #mnu-hide  {
+    left: 0;
+    background: black;
+}
