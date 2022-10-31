@@ -4,20 +4,46 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+li{
+    list-style: none;
+}
+ul{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 0!important;
+}
 
 .Bloco2 {
     background-color: white;
     border: 1px solid black;
 }
-.bg-red {
-    background: red;
+.bg-vermelho {
+    background: #FF3939;
 }
 
 .bg-pergaminho {
     background: #F5F5F5;
 }
-
+.mnu-titulo-first{
+    border-bottom: 1px solid black;
+}   
+.mnu-hide-itens li{
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+.mnu-hide-bloco-itens{
+    border-top: 1px solid black;
+}
+#mnu-hide{
+    width: 20%;
+    z-index: 2;
+    /*left: -2000px;*/
+    left: 0;
+}
 #mnu-scroll:hover + #mnu-hide  {
     left: 0;
-    background: black;
+}
+.mnu-hide-logo{
+    border-bottom: 4px solid black;
 }
