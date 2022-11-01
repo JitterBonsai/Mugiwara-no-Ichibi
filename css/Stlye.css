@@ -15,7 +15,9 @@ ul {
     margin-bottom: 0 !important;
     padding-left: 0 !important;
 }
-
+a {
+    text-decoration: none !important;
+}
 .Bloco2 {
     background-color: white;
     border: 1px solid black;
@@ -73,14 +75,16 @@ label:focus {
     display: block;
     text-align: center;
     padding: 0 20px;
-    line-height: 60px;
-    text-decoration: none;
-    color: #000;
+}
+.mnu-hide-itens li a,
+.mnu-titulo-first ul li a{
+    color:white
 }
 
 .mnu ul li a:hover,
-.mnu ul li label:hover {
-    color: #666;
+.mnu ul li label:hover
+.mnu-hide-itens li a:hover{
+    color: #000;
 }
 
 /* hide inputs */
