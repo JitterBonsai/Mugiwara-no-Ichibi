@@ -65,7 +65,7 @@ label:focus {
     display: block;
     padding: 0;
     text-indent: -9999px;
-    background: #FF3939 url(/img/icons8-cardápio-64.png) 50% 50%/25px 25px no-repeat;
+    background: #FF3939 url(/img/icons8-cardápio-64.png) 50% 50%/50px 50px no-repeat;
 }
 
 .mnu ul li a,
