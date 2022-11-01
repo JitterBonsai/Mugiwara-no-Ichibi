@@ -16,12 +16,10 @@
 </head>
 <body>
     <header>
-        <div class=" d-flex  mb-3">
-            <div class="align-start bg-vermelho" id="mnu-scroll">
-                <input type="checkbox" name="c-none" id="c-none">
-                <img src="/img/icons8-cardápio-64.png" alt="logo">
-            </div>
-            <div class="bg-vermelho h-100 position-fixed" id="mnu-hide">
+        <div id="wrapper">
+            <input type="checkbox" id="mnu" name="mnu" class="mnu-checkbox">
+            <div class="mnu bg-vermelho">
+                <label class="mnu-toggle" for="mnu"><span>Toggle</span></label>
                 <div class="d-flex flex-column">
                     <div class="mnu-hide-logo   d-flex w-100 ">
                         <img class="p-3 m-3 align-items-start rounded bg-black" src="/img/Jolly_Roger_Mugiwara-removebg-preview.png" alt="logo">
@@ -43,6 +41,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </header>
     <div class="p-4">
